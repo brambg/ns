@@ -1,6 +1,6 @@
 {
  "@context": {
-    "vm":      "http://purl.org/variant-matching/terms#",
+    "vm":      "https://humanities.knaw.nl/ns/variant-matching#",
     "xsd":     "http://www.w3.org/2001/XMLSchema#",
 
     "Match":    "vm:VariantMatch",
