@@ -1,6 +1,6 @@
 name: Validate JSONs
 
-on: [ push,pull_request ]
+on: [push,pull_request]
 
 jobs:
   verify-json-validation:
@@ -10,4 +10,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_JSONS: \*.jsonld
+          INPUT_SCHEMA: ./schema.json
+          INPUT_JSONS: ./variant-matching.jsonld,./anno.jsonld
