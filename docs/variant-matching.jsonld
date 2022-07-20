@@ -2,6 +2,7 @@
  "@context": {
     "vm":      "https://humanities.knaw.nl/ns/variant-matching#",
     "xsd":     "http://www.w3.org/2001/XMLSchema#",
+    "oa":      "http://www.w3.org/ns/oa#",
 
     "Match":    "vm:VariantMatch",
 
@@ -10,6 +11,8 @@
     "score":    {"@id": "vm:score",     "@type": "xsd:float" },
     "source":   {"@id": "vm:source",    "@type": "xsd:string" },
     "category": {"@id": "vm:category",  "@type": "xsd:string" },
-    "seqnr":    {"@id": "vm:seqnr",     "@type": "xsd:nonNegativeInteger" }
+    "seqnr":    {"@id": "vm:seqnr",     "@type": "xsd:nonNegativeInteger" },
+
+    "correcting": {"@id": "vm:correcting", "@type": "oa:Motivation"}
   }
 }
