@@ -11,8 +11,6 @@
     "score":    {"@id": "vm:score",     "@type": "xsd:float" },
     "source":   {"@id": "vm:source",    "@type": "xsd:string" },
     "category": {"@id": "vm:category",  "@type": "xsd:string" },
-    "seqnr":    {"@id": "vm:seqnr",     "@type": "xsd:nonNegativeInteger" },
-
-    "correcting": {"@id": "vm:correcting", "@type": "oa:Motivation"}
+    "seqnr":    {"@id": "vm:seqnr",     "@type": "xsd:nonNegativeInteger" }
   }
 }
