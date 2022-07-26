@@ -35,7 +35,7 @@
 
     "baseline": {
       "@id": "republic:baseline",
-      "@type": "xsd:list"
+        "@type": "xsd:list"
     },
     "beginAnchor": {
       "@id": "republic:beginAnchor",
@@ -126,8 +126,7 @@
       "@type": "@id"
     },
     "lineRanges": {
-      "@id": "republic:lineRanges",
-      "@type": "xsd:list"
+      "@id": "republic:lineRanges"
     },
     "lineWidth": {
       "@id": "republic:lineWidth",
@@ -206,12 +205,10 @@
       "@type": "xsd:string"
     },
     "regionLinks": {
-      "@id": "republic:regionLinks",
-      "@type": "xsd:list"
+      "@id": "republic:regionLinks"
     },
     "resolutionIds": {
-      "@id": "republic:resolutionIds",
-      "@type": "xsd:list"
+      "@id": "republic:resolutionIds"
     },
     "resolutionType": {
       "@id": "republic:resolutionType",
@@ -278,8 +275,7 @@
       "@type": "@id"
     },
     "textPageNum": {
-      "@id": "republic:textPageNum",
-      "@type": "xsd:list"
+      "@id": "republic:textPageNum"
     },
     "textRegionId": {
       "@id": "republic:textRegionId",
