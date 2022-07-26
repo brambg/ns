@@ -23,7 +23,6 @@
     "Location": "republic:Location",
     "MatchScores": "republic:MatchScores",
     "PropositionOrigin": "republic:PropositionOrigin",
-    "Provenance": "republic:Provenance",
     "Structure": "republic:Structure",
 
     "metadata": "republic:metadata",
@@ -54,10 +53,6 @@
     },
     "columnId": {
       "@id": "republic:columnId",
-      "@type": "xsd:string"
-    },
-    "conversionDate": {
-      "@id": "republic:conversionDate",
       "@type": "xsd:string"
     },
     "coords": {
@@ -100,10 +95,6 @@
       "@id": "republic:evidence",
       "@type": "xsd:list"
     },
-    "harvestingDate": {
-      "@id": "republic:harvestingDate",
-      "@type": "xsd:string"
-    },
     "hasSessionDateElement": {
       "@id": "republic:hasSessionDateElement",
       "@type": "xsd:boolean"
@@ -114,10 +105,6 @@
     },
     "iiifUrl": {
       "@id": "republic:iiifUrl",
-      "@type": "xsd:string"
-    },
-    "indexTimestamp": {
-      "@id": "republic:indexTimestamp",
       "@type": "xsd:string"
     },
     "inventoryNum": {
@@ -175,10 +162,6 @@
     "medianNormalWidth": {
       "@id": "republic:medianNormalWidth",
       "@type": "xsd:integer"
-    },
-    "motivation": {
-      "@id": "republic:motivation",
-      "@type": "xsd:string"
     },
     "ngramMatch": {
       "@id": "republic:ngramMatch",
@@ -314,10 +297,6 @@
     },
     "textRegionId": {
       "@id": "republic:textRegionId",
-      "@type": "xsd:string"
-    },
-    "toolId": {
-      "@id": "republic:toolId",
       "@type": "xsd:string"
     },
     "variant": {
