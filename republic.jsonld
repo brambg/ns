@@ -25,12 +25,11 @@
     "PropositionOrigin": "republic:PropositionOrigin",
     "Structure": "republic:Structure",
 
-    "metadata": "republic:metadata",
+    "metadata": "republic:hasMetadata",
+    "evidence": "republic:hasEvidence",
+    "attendanceSpans":  "republic:hasAttendanceSpans",
+    "text": "republic:hasText",
 
-    "attendanceSpans": {
-      "@id": "republic:attendanceSpans",
-      "@type": "xsd:list"
-    },
     "baseline": {
       "@id": "republic:baseline",
       "@type": "xsd:list"
@@ -90,10 +89,6 @@
     "endCharOffset": {
       "@id": "republic:endCharOffset",
       "@type": "xsd:integer"
-    },
-    "evidence": {
-      "@id": "republic:evidence",
-      "@type": "xsd:list"
     },
     "hasSessionDateElement": {
       "@id": "republic:hasSessionDateElement",
@@ -281,10 +276,6 @@
     },
     "string": {
       "@id": "republic:string",
-      "@type": "xsd:string"
-    },
-    "text": {
-      "@id": "republic:text",
       "@type": "xsd:string"
     },
     "textId": {
