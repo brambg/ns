@@ -55,7 +55,7 @@
     },
     "columnId": {
       "@id": "republic:columnId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "coords": {
       "@id": "republic:coords",
@@ -79,7 +79,7 @@
     },
     "docId": {
       "@id": "republic:docId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "end": {
       "@id": "republic:end",
@@ -123,7 +123,7 @@
     },
     "lineId": {
       "@id": "republic:lineId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "lineRanges": {
       "@id": "republic:lineRanges",
@@ -167,7 +167,7 @@
     },
     "pageId": {
       "@id": "republic:pageId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "pageNum": {
       "@id": "republic:pageNum",
@@ -179,7 +179,7 @@
     },
     "parentId": {
       "@id": "republic:parentId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "parentType": {
       "@id": "republic:parentType",
@@ -219,7 +219,7 @@
     },
     "resourceId": {
       "@id": "republic:resourceId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "rightAlignment": {
       "@id": "republic:rightAlignment",
@@ -227,7 +227,7 @@
     },
     "scanId": {
       "@id": "republic:scanId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "sessionDate": {
       "@id": "republic:sessionDate",
@@ -239,7 +239,7 @@
     },
     "sessionId": {
       "@id": "republic:sessionId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "sessionMonth": {
       "@id": "republic:sessionMonth",
@@ -259,7 +259,7 @@
     },
     "sourceId": {
       "@id": "republic:sourceId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "start": {
       "@id": "republic:start",
@@ -275,7 +275,7 @@
     },
     "textId": {
       "@id": "republic:textId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "textPageNum": {
       "@id": "republic:textPageNum",
@@ -283,7 +283,7 @@
     },
     "textRegionId": {
       "@id": "republic:textRegionId",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "variant": {
       "@id": "republic:variant",
