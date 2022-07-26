@@ -3,6 +3,8 @@
     "republic": "https://humanities.knaw.nl/ns/republic#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "oa": "http://www.w3.org/ns/oa#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
     "AttendanceList": "republic:AttendanceList",
     "Attendant": "republic:Attendant",
@@ -14,7 +16,6 @@
     "Scan": "republic:Scan",
     "Session": "republic:Session",
     "TextRegion": "republic:TextRegion",
-
     "PhraseMatch": "republic:PhraseMatch",
     "Column": "republic:Column",
     "Index": "republic:Index",
@@ -27,8 +28,10 @@
 
     "metadata": "republic:hasMetadata",
     "evidence": "republic:hasEvidence",
-    "attendanceSpans":  "republic:hasAttendanceSpans",
+    "attendanceSpans": "republic:hasAttendanceSpans",
     "text": "republic:hasText",
+    "lang": "dc:language",
+    "label": "rdfs:label",
 
     "baseline": {
       "@id": "republic:baseline",
@@ -109,14 +112,6 @@
     "isWorkday": {
       "@id": "republic:isWorkday",
       "@type": "xsd:boolean"
-    },
-    "label": {
-      "@id": "republic:label",
-      "@type": "xsd:list"
-    },
-    "lang": {
-      "@id": "republic:lang",
-      "@type": "xsd:list"
     },
     "leftAlignment": {
       "@id": "republic:leftAlignment",
