@@ -148,6 +148,7 @@
       "@id": "republic:linesIncludeRestDay",
       "@type": "xsd:boolean"
     },
+    "location": "republic:hasLocation",
     "matchScores": "republic:hasMatchScores",
     "medianNormalLeft": {
       "@id": "republic:medianNormalLeft",
