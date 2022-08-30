@@ -7,7 +7,6 @@
     "dcterms": "http://purl.org/dc/terms/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "iiif_prezi": "http://iiif.io/api/presentation/3#",
-
     "AttendanceList": "republic:AttendanceList",
     "Attendant": "republic:Attendant",
     "Line": "republic:Line",
@@ -24,9 +23,7 @@
     "PageXmlDoc": "republic:PageXmlDoc",
     "ResolutionParagraph": "republic:ResolutionParagraph",
     "Location": "republic:Location",
-    "MatchScores": "republic:MatchScores",
     "PropositionOrigin": "republic:PropositionOrigin",
-    "Structure": "republic:Structure",
     "Canvas": {
       "@id": "iiif_prezi:Canvas",
       "@context": {
@@ -37,17 +34,16 @@
         }
       }
     },
-
     "metadata": "republic:hasMetadata",
     "evidence": "republic:hasEvidence",
     "attendanceSpans": "republic:hasAttendanceSpans",
     "text": "republic:hasText",
     "lang": "dc:language",
     "label": "rdfs:label",
-
+    "structure": "republic:hasStructure",
     "baseline": {
       "@id": "republic:baseline",
-        "@type": "xsd:list"
+      "@type": "xsd:list"
     },
     "beginAnchor": {
       "@id": "republic:beginAnchor",
@@ -117,6 +113,10 @@
       "@id": "republic:iiifUrl",
       "@type": "xsd:string"
     },
+    "indexTimestamp": {
+      "@id": "republic:indexTimestamp",
+      "@type": "xsd:date"
+    },
     "inventoryNum": {
       "@id": "republic:inventoryNum",
       "@type": "xsd:integer"
@@ -148,6 +148,7 @@
       "@id": "republic:linesIncludeRestDay",
       "@type": "xsd:boolean"
     },
+    "matchScores": "republic:hasMatchScores",
     "medianNormalLeft": {
       "@id": "republic:medianNormalLeft",
       "@type": "xsd:integer"
@@ -210,6 +211,10 @@
     },
     "propositionOrganisation": {
       "@id": "republic:propositionOrganisation",
+      "@type": "xsd:string"
+    },
+    "propositionOrigin": {
+      "@id": "republic:propositionOrigin",
       "@type": "xsd:string"
     },
     "propositionType": {
