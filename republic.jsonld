@@ -4,7 +4,9 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "oa": "http://www.w3.org/ns/oa#",
     "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "iiif_prezi": "http://iiif.io/api/presentation/3#",
 
     "AttendanceList": "republic:AttendanceList",
     "Attendant": "republic:Attendant",
@@ -25,6 +27,16 @@
     "MatchScores": "republic:MatchScores",
     "PropositionOrigin": "republic:PropositionOrigin",
     "Structure": "republic:Structure",
+    "Canvas": {
+      "@id": "iiif_prezi:Canvas",
+      "@context": {
+        "partOf": {
+          "@id": "dcterms:partOf",
+          "@type": "@id",
+          "@container": "@set"
+        }
+      }
+    },
 
     "metadata": "republic:hasMetadata",
     "evidence": "republic:hasEvidence",
