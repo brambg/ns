@@ -115,7 +115,7 @@
     },
     "indexTimestamp": {
       "@id": "republic:indexTimestamp",
-      "@type": "xsd:date"
+      "@type": "xsd:dateTime"
     },
     "inventoryNum": {
       "@id": "republic:inventoryNum",
