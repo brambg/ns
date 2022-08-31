@@ -62,7 +62,7 @@
       "@type": "xsd:string"
     },
     "columnId": {
-      "@id": "republic:columnId",
+      "@id": "republic:inColumn",
       "@type": "@id"
     },
     "coords": {
@@ -86,7 +86,7 @@
       "@type": "xsd:integer"
     },
     "docId": {
-      "@id": "republic:docId",
+      "@id": "republic:inDocument",
       "@type": "@id"
     },
     "end": {
@@ -134,7 +134,7 @@
       "@type": "xsd:float"
     },
     "lineId": {
-      "@id": "republic:lineId",
+      "@id": "republic:inLine",
       "@type": "@id"
     },
     "lineRanges": {
@@ -179,7 +179,7 @@
       "@type": "xsd:integer"
     },
     "pageId": {
-      "@id": "republic:pageId",
+      "@id": "republic:onPage",
       "@type": "@id"
     },
     "pageNum": {
@@ -191,7 +191,7 @@
       "@type": "xsd:integer"
     },
     "parentId": {
-      "@id": "republic:parentId",
+      "@id": "republic:hasParent",
       "@type": "@id"
     },
     "parentType": {
@@ -233,7 +233,7 @@
       "@type": "xsd:string"
     },
     "resourceId": {
-      "@id": "republic:resourceId",
+      "@id": "republic:inResource",
       "@type": "@id"
     },
     "rightAlignment": {
@@ -241,7 +241,7 @@
       "@type": "xsd:string"
     },
     "scanId": {
-      "@id": "republic:scanId",
+      "@id": "republic:onScan",
       "@type": "@id"
     },
     "sessionDate": {
@@ -253,7 +253,7 @@
       "@type": "xsd:integer"
     },
     "sessionId": {
-      "@id": "republic:sessionId",
+      "@id": "republic:inSession",
       "@type": "@id"
     },
     "sessionMonth": {
@@ -273,7 +273,7 @@
       "@type": "xsd:integer"
     },
     "sourceId": {
-      "@id": "republic:sourceId",
+      "@id": "republic:inSource",
       "@type": "@id"
     },
     "start": {
@@ -289,14 +289,14 @@
       "@type": "xsd:string"
     },
     "textId": {
-      "@id": "republic:textId",
+      "@id": "republic:hasText",
       "@type": "@id"
     },
     "textPageNum": {
       "@id": "republic:textPageNum"
     },
     "textRegionId": {
-      "@id": "republic:textRegionId",
+      "@id": "republic:inTextRegion",
       "@type": "@id"
     },
     "variant": {
