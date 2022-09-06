@@ -1,6 +1,6 @@
 {
   "@context": {
-    "republic": "https://humanities.knaw.nl/ns/republic#",
+    "republic": "https://humanities.knaw.nl/def/republic/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "oa": "http://www.w3.org/ns/oa#",
     "dc": "http://purl.org/dc/elements/1.1/",

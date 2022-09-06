@@ -2,8 +2,8 @@
   "@context": {
     "oa": "http://www.w3.org/ns/oa#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "hp": "https://humanities.knaw.nl/ns/provenance#",
-    "prov": "https://humanities.knaw.nl/ns/republic#",
+    "hp": "https://humanities.knaw.nl/def/provenance/",
+    "prov": "https://humanities.knaw.nl/def/republic/",
     "conversionDate": {
       "@id": "hp:conversionDate",
       "@type": "xsd:dateTime"
