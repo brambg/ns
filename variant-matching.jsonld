@@ -1,6 +1,6 @@
 {
  "@context": {
-    "vm":      "https://humanities.knaw.nl/ns/variant-matching#",
+    "vm":      "https://humanities.knaw.nl/def/variant-matching/",
     "xsd":     "http://www.w3.org/2001/XMLSchema#",
     "oa":      "http://www.w3.org/ns/oa#",
 
