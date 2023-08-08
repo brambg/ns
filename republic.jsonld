@@ -24,6 +24,7 @@
     "ResolutionParagraph": "republic:ResolutionParagraph",
     "Location": "republic:Location",
     "Volume": "republic:Volume",
+    "Date": "republic:Date",
     "HeightMetadata": "republic:HeightMetadata",
     "PropositionOrigin": "republic:PropositionOrigin",
     "Canvas": {
@@ -150,6 +151,40 @@
       "@id": "republic:leftAlignment",
       "@type": "xsd:string"
     },
+    "headerId": {
+      "@id": "republic:headerId",
+      "@type": "xsd:string"
+    },
+    "personNamePrefix": {
+      "@id": "republic:personNamePrefix"
+    },
+    "affairsRelation": {
+      "@id": "republic:affairsRelation"
+    },
+    "correspondenceFrom": {
+      "@id": "republic:correspondenceFrom"
+    },
+    "locationRelation": {
+      "@id": "republic:locationRelation"
+    },
+    "organisation": {
+      "@id": "republic:organisation"
+    },
+    "addressedTo": {
+      "@id": "republic:addressedTo"
+    },
+    "temporalReference": {
+      "@id": "republic:temporalReference"
+    },
+    "residenceRelation": {
+      "@id": "republic:residenceRelation"
+    },
+    "representationRelation": {
+      "@id": "republic:representationRelation"
+    },
+    "resolutionRelation": {
+      "@id": "republic:resolutionRelation"
+    },
     "levenshteinSimilarity": {
       "@id": "republic:levenshteinSimilarity",
       "@type": "xsd:float"
@@ -171,6 +206,7 @@
     },
     "location": "republic:hasLocation",
     "matchScores": "republic:hasMatchScores",
+    "ofProvince": "republic:ofProvince",
     "medianNormalLeft": {
       "@id": "republic:medianNormalLeft",
       "@type": "xsd:integer"
@@ -250,6 +286,9 @@
     },
     "personRole": {
       "@id": "republic:personRole"
+    },
+    "personLocation": {
+      "@id": "republic:personLocation"
     },
     "variableEntity": {
       "@id": "republic:variableEntity"
