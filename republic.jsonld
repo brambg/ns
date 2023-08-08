@@ -115,7 +115,7 @@
     },
     "iiifUrl": {
       "@id": "republic:iiifUrl",
-      "@type": "xsd:string"
+      "@type": "@id"
     },
     "indexTimestamp": {
       "@id": "republic:indexTimestamp",
