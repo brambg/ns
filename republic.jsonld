@@ -24,6 +24,7 @@
     "ResolutionParagraph": "republic:ResolutionParagraph",
     "Location": "republic:Location",
     "Volume": "republic:Volume",
+    "HeightMetadata": "republic:HeightMetadata",
     "PropositionOrigin": "republic:PropositionOrigin",
     "Canvas": {
       "@id": "iiif_prezi:Canvas",
