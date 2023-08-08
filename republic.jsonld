@@ -44,6 +44,7 @@
     "lang": "dc:language",
     "label": "rdfs:label",
     "structure": "republic:hasStructure",
+    "residentIn": "republic:residentIn",
     "baseline": {
       "@id": "republic:baseline",
       "@type": "xsd:list"
