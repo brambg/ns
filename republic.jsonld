@@ -139,7 +139,7 @@
       "@type": "xsd:integer"
     },
     "min": {
-      "@id": "republic:max",
+      "@id": "republic:min",
       "@type": "xsd:integer"
     },
     "isWorkday": {
