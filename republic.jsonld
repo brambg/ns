@@ -105,6 +105,9 @@
       "@id": "republic:hasSessionDateElement",
       "@type": "xsd:boolean"
     },
+    "height": {
+      "@id": "republic:height"
+    },
     "ignorecase": {
       "@id": "republic:ignorecase",
       "@type": "xsd:boolean"
@@ -119,6 +122,22 @@
     },
     "inventoryNum": {
       "@id": "republic:inventoryNum",
+      "@type": "xsd:integer"
+    },
+    "max": {
+      "@id": "republic:max",
+      "@type": "xsd:integer"
+    },
+    "mean": {
+      "@id": "republic:mean",
+      "@type": "xsd:integer"
+    },
+    "median": {
+      "@id": "republic:median",
+      "@type": "xsd:integer"
+    },
+    "min": {
+      "@id": "republic:max",
       "@type": "xsd:integer"
     },
     "isWorkday": {
@@ -178,9 +197,17 @@
       "@id": "republic:offset",
       "@type": "xsd:integer"
     },
+    "opening": {
+      "@id": "republic:opening",
+      "@type": "xsd:string"
+    },
     "pageId": {
       "@id": "republic:onPage",
       "@type": "@id"
+    },
+    "pageIds": {
+      "@id": "republic:pageIds",
+      "@type": "xsd:string"
     },
     "pageNum": {
       "@id": "republic:pageNum",
@@ -301,6 +328,10 @@
     },
     "variant": {
       "@id": "republic:variant",
+      "@type": "xsd:string"
+    },
+    "volume": {
+      "@id": "republic:volume",
       "@type": "xsd:string"
     }
   }
