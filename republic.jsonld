@@ -23,6 +23,7 @@
     "PageXmlDoc": "republic:PageXmlDoc",
     "ResolutionParagraph": "republic:ResolutionParagraph",
     "Location": "republic:Location",
+    "Volume": "republic:Volume",
     "PropositionOrigin": "republic:PropositionOrigin",
     "Canvas": {
       "@id": "iiif_prezi:Canvas",
@@ -209,6 +210,18 @@
       "@id": "republic:pageIds",
       "@type": "xsd:string"
     },
+    "codeCommit": {
+      "@id": "republic:codeCommit",
+      "@type": "@id"
+    },
+    "manifest": {
+      "@id": "republic:manifest",
+      "@type": "@id"
+    },
+    "provUrl": {
+      "@id": "republic:provUrl",
+      "@type": "@id"
+    },
     "pageNum": {
       "@id": "republic:pageNum",
       "@type": "xsd:integer"
@@ -224,6 +237,39 @@
     "parentType": {
       "@id": "republic:parentType",
       "@type": "xsd:string"
+    },
+    "formula": {
+      "@id": "republic:formula"
+    },
+    "proposer": {
+      "@id": "republic:proposer"
+    },
+    "representatives": {
+      "@id": "republic:representatives"
+    },
+    "personRole": {
+      "@id": "republic:personRole"
+    },
+    "variableEntity": {
+      "@id": "republic:variableEntity"
+    },
+    "propositionVerb": {
+      "@id": "republic:propositionVerb"
+    },
+    "fullString": {
+      "@id": "republic:fullString",
+      "@type": "xsd:string"
+    },
+    "title": {
+      "@id": "republic:title",
+      "@type": "xsd:string"
+    },
+    "endOffset": {
+      "@id": "republic:endOffset",
+      "@type": "xsd:int"
+    },
+    "propositionOpening": {
+      "@id": "republic:propositionOpening"
     },
     "pattern": {
       "@id": "republic:pattern",
