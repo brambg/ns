@@ -1,32 +1,16 @@
 {
   "@context": {
-    "republic": "https://humanities.knaw.nl/def/republic/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "oa": "http://www.w3.org/ns/oa#",
+    // namespaces
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "iiif_prezi": "http://iiif.io/api/presentation/3#",
+    "oa": "http://www.w3.org/ns/oa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "republic": "https://humanities.knaw.nl/def/republic/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    //  objects
     "AttendanceList": "republic:AttendanceList",
     "Attendant": "republic:Attendant",
-    "Line": "republic:Line",
-    "Page": "republic:Page",
-    "RepublicParagraph": "republic:RepublicParagraph",
-    "Resolution": "republic:Resolution",
-    "Reviewed": "republic:Reviewed",
-    "Scan": "republic:Scan",
-    "Session": "republic:Session",
-    "TextRegion": "republic:TextRegion",
-    "PhraseMatch": "republic:PhraseMatch",
-    "Column": "republic:Column",
-    "Index": "republic:Index",
-    "PageXmlDoc": "republic:PageXmlDoc",
-    "ResolutionParagraph": "republic:ResolutionParagraph",
-    "Location": "republic:Location",
-    "Volume": "republic:Volume",
-    "Date": "republic:Date",
-    "HeightMetadata": "republic:HeightMetadata",
-    "PropositionOrigin": "republic:PropositionOrigin",
     "Canvas": {
       "@id": "iiif_prezi:Canvas",
       "@context": {
@@ -37,6 +21,25 @@
         }
       }
     },
+    "Column": "republic:Column",
+    "Date": "republic:Date",
+    "HeightMetadata": "republic:HeightMetadata",
+    "Index": "republic:Index",
+    "Line": "republic:Line",
+    "Location": "republic:Location",
+    "Page": "republic:Page",
+    "PageXmlDoc": "republic:PageXmlDoc",
+    "PhraseMatch": "republic:PhraseMatch",
+    "PropositionOrigin": "republic:PropositionOrigin",
+    "RepublicParagraph": "republic:RepublicParagraph",
+    "Resolution": "republic:Resolution",
+    "ResolutionParagraph": "republic:ResolutionParagraph",
+    "Reviewed": "republic:Reviewed",
+    "Scan": "republic:Scan",
+    "Session": "republic:Session",
+    "TextRegion": "republic:TextRegion",
+    "Volume": "republic:Volume",
+    // properties
     "metadata": "republic:hasMetadata",
     "evidence": "republic:hasEvidence",
     "attendanceSpans": "republic:hasAttendanceSpans",
@@ -109,9 +112,7 @@
       "@id": "republic:hasSessionDateElement",
       "@type": "xsd:boolean"
     },
-    "height": {
-      "@id": "republic:height"
-    },
+    "height": "republic:height",
     "ignorecase": {
       "@id": "republic:ignorecase",
       "@type": "xsd:boolean"
@@ -156,36 +157,16 @@
       "@id": "republic:headerId",
       "@type": "xsd:string"
     },
-    "personNamePrefix": {
-      "@id": "republic:personNamePrefix"
-    },
-    "affairsRelation": {
-      "@id": "republic:affairsRelation"
-    },
-    "correspondenceFrom": {
-      "@id": "republic:correspondenceFrom"
-    },
-    "locationRelation": {
-      "@id": "republic:locationRelation"
-    },
-    "organisation": {
-      "@id": "republic:organisation"
-    },
-    "addressedTo": {
-      "@id": "republic:addressedTo"
-    },
-    "temporalReference": {
-      "@id": "republic:temporalReference"
-    },
-    "residenceRelation": {
-      "@id": "republic:residenceRelation"
-    },
-    "representationRelation": {
-      "@id": "republic:representationRelation"
-    },
-    "resolutionRelation": {
-      "@id": "republic:resolutionRelation"
-    },
+    "personNamePrefix": "republic:personNamePrefix",
+    "affairsRelation": "republic:affairsRelation",
+    "correspondenceFrom": "republic:correspondenceFrom",
+    "locationRelation": "republic:locationRelation",
+    "organisation": "republic:organisation",
+    "addressedTo": "republic:addressedTo",
+    "temporalReference": "republic:temporalReference",
+    "residenceRelation": "republic:residenceRelation",
+    "representationRelation": "republic:representationRelation",
+    "resolutionRelation": "republic:resolutionRelation",
     "levenshteinSimilarity": {
       "@id": "republic:levenshteinSimilarity",
       "@type": "xsd:float"
@@ -194,9 +175,7 @@
       "@id": "republic:inLine",
       "@type": "@id"
     },
-    "lineRanges": {
-      "@id": "republic:lineRanges"
-    },
+    "lineRanges": "republic:lineRanges",
     "lineWidth": {
       "@id": "republic:lineWidth",
       "@type": "xsd:string"
@@ -276,27 +255,13 @@
       "@id": "republic:parentType",
       "@type": "xsd:string"
     },
-    "formula": {
-      "@id": "republic:formula"
-    },
-    "proposer": {
-      "@id": "republic:proposer"
-    },
-    "representatives": {
-      "@id": "republic:representatives"
-    },
-    "personRole": {
-      "@id": "republic:personRole"
-    },
-    "personLocation": {
-      "@id": "republic:personLocation"
-    },
-    "variableEntity": {
-      "@id": "republic:variableEntity"
-    },
-    "propositionVerb": {
-      "@id": "republic:propositionVerb"
-    },
+    "formula": "republic:formula",
+    "proposer": "republic:proposer",
+    "representatives": "republic:representatives",
+    "personRole": "republic:personRole",
+    "personLocation": "republic:personLocation",
+    "variableEntity": "republic:variableEntity",
+    "propositionVerb": "republic:propositionVerb",
     "fullString": {
       "@id": "republic:fullString",
       "@type": "xsd:string"
@@ -309,9 +274,7 @@
       "@id": "republic:endOffset",
       "@type": "xsd:int"
     },
-    "propositionOpening": {
-      "@id": "republic:propositionOpening"
-    },
+    "propositionOpening": "republic:propositionOpening",
     "pattern": {
       "@id": "republic:pattern",
       "@type": "xsd:string"
@@ -336,12 +299,8 @@
       "@id": "republic:propositionType",
       "@type": "xsd:string"
     },
-    "regionLinks": {
-      "@id": "republic:regionLinks"
-    },
-    "resolutionIds": {
-      "@id": "republic:resolutionIds"
-    },
+    "regionLinks": "republic:regionLinks",
+    "resolutionIds": "republic:resolutionIds",
     "resolutionType": {
       "@id": "republic:resolutionType",
       "@type": "xsd:string"
@@ -406,9 +365,7 @@
       "@id": "republic:hasText",
       "@type": "@id"
     },
-    "textPageNum": {
-      "@id": "republic:textPageNum"
-    },
+    "textPageNum": "republic:textPageNum",
     "textRegionId": {
       "@id": "republic:inTextRegion",
       "@type": "@id"
@@ -418,7 +375,7 @@
       "@type": "xsd:string"
     },
     "volume": {
-      "@id": "republic:volume",
+      "@id": "republic:inVolume",
       "@type": "xsd:string"
     }
   }
