@@ -40,14 +40,40 @@
     "TextRegion": "republic:TextRegion",
     "Volume": "republic:Volume",
     // properties
-    "metadata": "republic:hasMetadata",
-    "evidence": "republic:hasEvidence",
+    "addressedTo": "republic:addressedTo",
+    "affairsRelation": "republic:affairsRelation",
     "attendanceSpans": "republic:hasAttendanceSpans",
-    "text": "republic:hasText",
-    "lang": "dc:language",
+    "correspondenceFrom": "republic:correspondenceFrom",
+    "evidence": "republic:hasEvidence",
+    "formula": "republic:formula",
+    "height": "republic:height",
     "label": "rdfs:label",
-    "structure": "republic:hasStructure",
+    "lang": "dc:language",
+    "lineRanges": "republic:lineRanges",
+    "location": "republic:hasLocation",
+    "locationRelation": "republic:locationRelation",
+    "matchScores": "republic:hasMatchScores",
+    "metadata": "republic:hasMetadata",
+    "ofProvince": "republic:ofProvince",
+    "organisation": "republic:organisation",
+    "personLocation": "republic:personLocation",
+    "personNamePrefix": "republic:personNamePrefix",
+    "personRole": "republic:personRole",
+    "proposer": "republic:proposer",
+    "propositionOpening": "republic:propositionOpening",
+    "propositionVerb": "republic:propositionVerb",
+    "regionLinks": "republic:regionLinks",
+    "representationRelation": "republic:representationRelation",
+    "representatives": "republic:representatives",
+    "residenceRelation": "republic:residenceRelation",
     "residentIn": "republic:residentIn",
+    "resolutionIds": "republic:resolutionIds",
+    "resolutionRelation": "republic:resolutionRelation",
+    "structure": "republic:hasStructure",
+    "temporalReference": "republic:temporalReference",
+    "text": "republic:hasText",
+    "textPageNum": "republic:textPageNum",
+    "variableEntity": "republic:variableEntity",
     "baseline": {
       "@id": "republic:baseline",
       "@type": "xsd:list"
@@ -112,7 +138,6 @@
       "@id": "republic:hasSessionDateElement",
       "@type": "xsd:boolean"
     },
-    "height": "republic:height",
     "ignorecase": {
       "@id": "republic:ignorecase",
       "@type": "xsd:boolean"
@@ -157,16 +182,6 @@
       "@id": "republic:headerId",
       "@type": "xsd:string"
     },
-    "personNamePrefix": "republic:personNamePrefix",
-    "affairsRelation": "republic:affairsRelation",
-    "correspondenceFrom": "republic:correspondenceFrom",
-    "locationRelation": "republic:locationRelation",
-    "organisation": "republic:organisation",
-    "addressedTo": "republic:addressedTo",
-    "temporalReference": "republic:temporalReference",
-    "residenceRelation": "republic:residenceRelation",
-    "representationRelation": "republic:representationRelation",
-    "resolutionRelation": "republic:resolutionRelation",
     "levenshteinSimilarity": {
       "@id": "republic:levenshteinSimilarity",
       "@type": "xsd:float"
@@ -175,7 +190,6 @@
       "@id": "republic:inLine",
       "@type": "@id"
     },
-    "lineRanges": "republic:lineRanges",
     "lineWidth": {
       "@id": "republic:lineWidth",
       "@type": "xsd:string"
@@ -184,9 +198,6 @@
       "@id": "republic:linesIncludeRestDay",
       "@type": "xsd:boolean"
     },
-    "location": "republic:hasLocation",
-    "matchScores": "republic:hasMatchScores",
-    "ofProvince": "republic:ofProvince",
     "medianNormalLeft": {
       "@id": "republic:medianNormalLeft",
       "@type": "xsd:integer"
@@ -255,13 +266,6 @@
       "@id": "republic:parentType",
       "@type": "xsd:string"
     },
-    "formula": "republic:formula",
-    "proposer": "republic:proposer",
-    "representatives": "republic:representatives",
-    "personRole": "republic:personRole",
-    "personLocation": "republic:personLocation",
-    "variableEntity": "republic:variableEntity",
-    "propositionVerb": "republic:propositionVerb",
     "fullString": {
       "@id": "republic:fullString",
       "@type": "xsd:string"
@@ -274,7 +278,6 @@
       "@id": "republic:endOffset",
       "@type": "xsd:int"
     },
-    "propositionOpening": "republic:propositionOpening",
     "pattern": {
       "@id": "republic:pattern",
       "@type": "xsd:string"
@@ -299,8 +302,6 @@
       "@id": "republic:propositionType",
       "@type": "xsd:string"
     },
-    "regionLinks": "republic:regionLinks",
-    "resolutionIds": "republic:resolutionIds",
     "resolutionType": {
       "@id": "republic:resolutionType",
       "@type": "xsd:string"
@@ -365,7 +366,6 @@
       "@id": "republic:hasText",
       "@type": "@id"
     },
-    "textPageNum": "republic:textPageNum",
     "textRegionId": {
       "@id": "republic:inTextRegion",
       "@type": "@id"
