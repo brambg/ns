@@ -1,6 +1,5 @@
 {
   "@context": {
-    // namespaces
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
     "iiif_prezi": "http://iiif.io/api/presentation/3#",
@@ -8,7 +7,6 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "republic": "https://humanities.knaw.nl/def/republic/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    //  objects
     "AttendanceList": "republic:AttendanceList",
     "Attendant": "republic:Attendant",
     "Canvas": {
@@ -39,7 +37,6 @@
     "Session": "republic:Session",
     "TextRegion": "republic:TextRegion",
     "Volume": "republic:Volume",
-    // properties
     "addressedTo": "republic:addressedTo",
     "affairsRelation": "republic:affairsRelation",
     "attendanceSpans": "republic:hasAttendanceSpans",
