@@ -59,6 +59,7 @@
     "proposer": "republic:proposer",
     "propositionOpening": "republic:propositionOpening",
     "propositionVerb": "republic:propositionVerb",
+    "readingOrder": "republic:readingOrder",
     "regionLinks": "republic:regionLinks",
     "representationRelation": "republic:representationRelation",
     "representatives": "republic:representatives",
