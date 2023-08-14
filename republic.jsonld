@@ -132,6 +132,10 @@
       "@id": "republic:endCharOffset",
       "@type": "xsd:integer"
     },
+    "index": {
+      "@id": "republic:index",
+      "@type": "xsd:integer"
+    },
     "hasSessionDateElement": {
       "@id": "republic:hasSessionDateElement",
       "@type": "xsd:boolean"
